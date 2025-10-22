@@ -1,0 +1,14 @@
+C:\Users\44840646856\Desktop\BackEndMoura\DesafioMaiorMenor\obj\Debug\net9.0\DesafioMaiorMenor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\44840646856\Desktop\BackEndMoura\DesafioMaiorMenor\obj\Debug\net9.0\DesafioMaiorMenor.AssemblyInfoInputs.cache
+C:\Users\44840646856\Desktop\BackEndMoura\DesafioMaiorMenor\obj\Debug\net9.0\DesafioMaiorMenor.AssemblyInfo.cs
+C:\Users\44840646856\Desktop\BackEndMoura\DesafioMaiorMenor\obj\Debug\net9.0\DesafioMaiorMenor.csproj.CoreCompileInputs.cache
+C:\Users\44840646856\Desktop\BackEndMoura\DesafioMaiorMenor\bin\Debug\net9.0\DesafioMaiorMenor.exe
+C:\Users\44840646856\Desktop\BackEndMoura\DesafioMaiorMenor\bin\Debug\net9.0\DesafioMaiorMenor.deps.json
+C:\Users\44840646856\Desktop\BackEndMoura\DesafioMaiorMenor\bin\Debug\net9.0\DesafioMaiorMenor.runtimeconfig.json
+C:\Users\44840646856\Desktop\BackEndMoura\DesafioMaiorMenor\bin\Debug\net9.0\DesafioMaiorMenor.dll
+C:\Users\44840646856\Desktop\BackEndMoura\DesafioMaiorMenor\bin\Debug\net9.0\DesafioMaiorMenor.pdb
+C:\Users\44840646856\Desktop\BackEndMoura\DesafioMaiorMenor\obj\Debug\net9.0\DesafioMaiorMenor.dll
+C:\Users\44840646856\Desktop\BackEndMoura\DesafioMaiorMenor\obj\Debug\net9.0\refint\DesafioMaiorMenor.dll
+C:\Users\44840646856\Desktop\BackEndMoura\DesafioMaiorMenor\obj\Debug\net9.0\DesafioMaiorMenor.pdb
+C:\Users\44840646856\Desktop\BackEndMoura\DesafioMaiorMenor\obj\Debug\net9.0\DesafioMaiorMenor.genruntimeconfig.cache
+C:\Users\44840646856\Desktop\BackEndMoura\DesafioMaiorMenor\obj\Debug\net9.0\ref\DesafioMaiorMenor.dll
