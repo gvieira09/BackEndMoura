@@ -1,0 +1,15 @@
+C:\Users\44840646856\Desktop\BackEndMoura\Recaptulação1\bin\Debug\net9.0\Recaptulação1.exe
+C:\Users\44840646856\Desktop\BackEndMoura\Recaptulação1\bin\Debug\net9.0\Recaptulação1.deps.json
+C:\Users\44840646856\Desktop\BackEndMoura\Recaptulação1\bin\Debug\net9.0\Recaptulação1.runtimeconfig.json
+C:\Users\44840646856\Desktop\BackEndMoura\Recaptulação1\bin\Debug\net9.0\Recaptulação1.dll
+C:\Users\44840646856\Desktop\BackEndMoura\Recaptulação1\bin\Debug\net9.0\Recaptulação1.pdb
+C:\Users\44840646856\Desktop\BackEndMoura\Recaptulação1\obj\Debug\net9.0\Recaptulação1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\44840646856\Desktop\BackEndMoura\Recaptulação1\obj\Debug\net9.0\Recaptulação1.AssemblyInfoInputs.cache
+C:\Users\44840646856\Desktop\BackEndMoura\Recaptulação1\obj\Debug\net9.0\Recaptulação1.AssemblyInfo.cs
+C:\Users\44840646856\Desktop\BackEndMoura\Recaptulação1\obj\Debug\net9.0\Recaptulação1.csproj.CoreCompileInputs.cache
+C:\Users\44840646856\Desktop\BackEndMoura\Recaptulação1\obj\Debug\net9.0\Recaptulação1.sourcelink.json
+C:\Users\44840646856\Desktop\BackEndMoura\Recaptulação1\obj\Debug\net9.0\Recaptulação1.dll
+C:\Users\44840646856\Desktop\BackEndMoura\Recaptulação1\obj\Debug\net9.0\refint\Recaptulação1.dll
+C:\Users\44840646856\Desktop\BackEndMoura\Recaptulação1\obj\Debug\net9.0\Recaptulação1.pdb
+C:\Users\44840646856\Desktop\BackEndMoura\Recaptulação1\obj\Debug\net9.0\Recaptulação1.genruntimeconfig.cache
+C:\Users\44840646856\Desktop\BackEndMoura\Recaptulação1\obj\Debug\net9.0\ref\Recaptulação1.dll

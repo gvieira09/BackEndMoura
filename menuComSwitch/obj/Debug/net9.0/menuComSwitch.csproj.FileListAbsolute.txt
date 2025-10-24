@@ -1,0 +1,15 @@
+C:\Users\44840646856\Desktop\BackEndMoura\menuComSwitch\bin\Debug\net9.0\menuComSwitch.exe
+C:\Users\44840646856\Desktop\BackEndMoura\menuComSwitch\bin\Debug\net9.0\menuComSwitch.deps.json
+C:\Users\44840646856\Desktop\BackEndMoura\menuComSwitch\bin\Debug\net9.0\menuComSwitch.runtimeconfig.json
+C:\Users\44840646856\Desktop\BackEndMoura\menuComSwitch\bin\Debug\net9.0\menuComSwitch.dll
+C:\Users\44840646856\Desktop\BackEndMoura\menuComSwitch\bin\Debug\net9.0\menuComSwitch.pdb
+C:\Users\44840646856\Desktop\BackEndMoura\menuComSwitch\obj\Debug\net9.0\menuComSwitch.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\44840646856\Desktop\BackEndMoura\menuComSwitch\obj\Debug\net9.0\menuComSwitch.AssemblyInfoInputs.cache
+C:\Users\44840646856\Desktop\BackEndMoura\menuComSwitch\obj\Debug\net9.0\menuComSwitch.AssemblyInfo.cs
+C:\Users\44840646856\Desktop\BackEndMoura\menuComSwitch\obj\Debug\net9.0\menuComSwitch.csproj.CoreCompileInputs.cache
+C:\Users\44840646856\Desktop\BackEndMoura\menuComSwitch\obj\Debug\net9.0\menuComSwitch.sourcelink.json
+C:\Users\44840646856\Desktop\BackEndMoura\menuComSwitch\obj\Debug\net9.0\menuComSwitch.dll
+C:\Users\44840646856\Desktop\BackEndMoura\menuComSwitch\obj\Debug\net9.0\refint\menuComSwitch.dll
+C:\Users\44840646856\Desktop\BackEndMoura\menuComSwitch\obj\Debug\net9.0\menuComSwitch.pdb
+C:\Users\44840646856\Desktop\BackEndMoura\menuComSwitch\obj\Debug\net9.0\menuComSwitch.genruntimeconfig.cache
+C:\Users\44840646856\Desktop\BackEndMoura\menuComSwitch\obj\Debug\net9.0\ref\menuComSwitch.dll
