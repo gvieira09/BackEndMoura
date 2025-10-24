@@ -1,0 +1,15 @@
+C:\Users\44840646856\Desktop\BackEndMoura\CadastroAlunos\bin\Debug\net9.0\CadastroAlunos.exe
+C:\Users\44840646856\Desktop\BackEndMoura\CadastroAlunos\bin\Debug\net9.0\CadastroAlunos.deps.json
+C:\Users\44840646856\Desktop\BackEndMoura\CadastroAlunos\bin\Debug\net9.0\CadastroAlunos.runtimeconfig.json
+C:\Users\44840646856\Desktop\BackEndMoura\CadastroAlunos\bin\Debug\net9.0\CadastroAlunos.dll
+C:\Users\44840646856\Desktop\BackEndMoura\CadastroAlunos\bin\Debug\net9.0\CadastroAlunos.pdb
+C:\Users\44840646856\Desktop\BackEndMoura\CadastroAlunos\obj\Debug\net9.0\CadastroAlunos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\44840646856\Desktop\BackEndMoura\CadastroAlunos\obj\Debug\net9.0\CadastroAlunos.AssemblyInfoInputs.cache
+C:\Users\44840646856\Desktop\BackEndMoura\CadastroAlunos\obj\Debug\net9.0\CadastroAlunos.AssemblyInfo.cs
+C:\Users\44840646856\Desktop\BackEndMoura\CadastroAlunos\obj\Debug\net9.0\CadastroAlunos.csproj.CoreCompileInputs.cache
+C:\Users\44840646856\Desktop\BackEndMoura\CadastroAlunos\obj\Debug\net9.0\CadastroAlunos.sourcelink.json
+C:\Users\44840646856\Desktop\BackEndMoura\CadastroAlunos\obj\Debug\net9.0\CadastroAlunos.dll
+C:\Users\44840646856\Desktop\BackEndMoura\CadastroAlunos\obj\Debug\net9.0\refint\CadastroAlunos.dll
+C:\Users\44840646856\Desktop\BackEndMoura\CadastroAlunos\obj\Debug\net9.0\CadastroAlunos.pdb
+C:\Users\44840646856\Desktop\BackEndMoura\CadastroAlunos\obj\Debug\net9.0\CadastroAlunos.genruntimeconfig.cache
+C:\Users\44840646856\Desktop\BackEndMoura\CadastroAlunos\obj\Debug\net9.0\ref\CadastroAlunos.dll
