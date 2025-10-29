@@ -35,7 +35,7 @@ do
             Transferir();
             break;
         case 5:
-            ListarClientes();
+            ListarCliente();
             break;
         default:
             Console.WriteLine($"Opção Inválida");
@@ -67,22 +67,88 @@ void CadastrarCliente()
 }
 void Depositar()
 {
-    Console.WriteLine($"Função depositar em desenvolvimento");
+    int idCliente = BuscarCliente();
+    if (idCliente == -1)
+    {
+        return;
+    }
+
+    //cliente encontrado
+    Console.Write($"Valor para depósito: ");
+    float Valor = float.Parse(Console.ReadLine());
+    saldos[idCliente] += Valor;
+    Console.WriteLine($"Depósito de R$ {Valor:F2} realizado");
+    
 }
 void Sacar()
 {
-    Console.WriteLine($"Função sacar em desenvolvimento");
+    int idCliente = BuscarCliente();
+    if (idCliente == -1)
+    {
+        return;
+    }
+
+    Console.WriteLine($"Digite o valor do saque: ");
+    float valor = float.Parse(Console.ReadLine());
+    if (valor > saldos[idCliente] && valor > 0)
+    {
+        Console.WriteLine($"Saldo insuficiente para saque!");
+        return;
+    }
+    saldos[idCliente] -= valor;
+    Console.WriteLine($"Saque de R$ {valor:F2} Realizado!");
 }
 void Transferir()
 {
-    Console.WriteLine($"Função transferir em desenvolvimento");
-}
-void ListarClientes()
-{
- Console.WriteLine($"=== Listagem de Clientes ===");
+    Console.WriteLine($"== Transferência ==");
+    Console.Write($"Conta de Origem: ");
+    int idOrigem = BuscarCliente();
 
-   for (int t = 0; t < totalClientes; t++)
-   {
-    Console.WriteLine($"Nome: {nomes[t]}, R$ {saldos[t]}");
-   }
+    if (idOrigem == -1) return;
+
+    Console.Write($"Conta de Destino: ");
+    int idDestino = BuscarCliente();
+
+    if (idDestino == -1) return;
+
+    Console.Write($"Valor para transferir: ");
+    float valor = float.Parse(Console.ReadLine());
+
+    if (saldos[idDestino] >= valor && valor > 0)
+    {
+        saldos[idOrigem] -= valor;
+        saldos[idDestino] += valor;
+        Console.WriteLine($"Transferência concluída");
+    }
+    else
+    {
+        Console.WriteLine($"Saldo Insuficiente");   
+    }
+
 }
+void ListarCliente()
+{
+    Console.WriteLine($"=== Listagem de Clientes ===");
+
+    for (int t = 0; t < totalClientes; t++)
+    {
+        Console.WriteLine($"Nome:{t} - {nomes[t]}, R$ {saldos[t]}");
+    }
+}
+int BuscarCliente()
+{
+    //listar cliente
+    ListarCliente();
+    //pedir pro usuário escolher o cliente
+    Console.WriteLine($"Digite o número do clinete: ");
+    int idCliente = int.Parse(Console.ReadLine());
+    if (idCliente < 0 || idCliente >= totalClientes)
+    {
+        Console.WriteLine($"Cliente não encontrado!");
+        return -1;
+    }
+    
+    //retornar/devolver o id do cliente
+    return idCliente;
+}
+
