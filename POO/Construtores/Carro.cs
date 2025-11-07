@@ -8,9 +8,13 @@ namespace Construtores
         public string Modelo;
         public int Ano;
 
-        public Carro()
+        public Carro(string marca, string modelo, int ano)
         {
-            Console.WriteLine($"Objeto criado");
+            Marca = marca;
+            Modelo = modelo;
+            Ano = ano;
+
+            ExibirDdados();
         } 
         
           public void ExibirDdados()

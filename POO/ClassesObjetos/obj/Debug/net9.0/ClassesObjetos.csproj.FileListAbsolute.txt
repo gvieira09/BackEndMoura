@@ -1,0 +1,15 @@
+C:\Users\44840646856\Desktop\BackEndMoura\POO\ClassesObjetos\bin\Debug\net9.0\ClassesObjetos.exe
+C:\Users\44840646856\Desktop\BackEndMoura\POO\ClassesObjetos\bin\Debug\net9.0\ClassesObjetos.deps.json
+C:\Users\44840646856\Desktop\BackEndMoura\POO\ClassesObjetos\bin\Debug\net9.0\ClassesObjetos.runtimeconfig.json
+C:\Users\44840646856\Desktop\BackEndMoura\POO\ClassesObjetos\bin\Debug\net9.0\ClassesObjetos.dll
+C:\Users\44840646856\Desktop\BackEndMoura\POO\ClassesObjetos\bin\Debug\net9.0\ClassesObjetos.pdb
+C:\Users\44840646856\Desktop\BackEndMoura\POO\ClassesObjetos\obj\Debug\net9.0\ClassesObjetos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\44840646856\Desktop\BackEndMoura\POO\ClassesObjetos\obj\Debug\net9.0\ClassesObjetos.AssemblyInfoInputs.cache
+C:\Users\44840646856\Desktop\BackEndMoura\POO\ClassesObjetos\obj\Debug\net9.0\ClassesObjetos.AssemblyInfo.cs
+C:\Users\44840646856\Desktop\BackEndMoura\POO\ClassesObjetos\obj\Debug\net9.0\ClassesObjetos.csproj.CoreCompileInputs.cache
+C:\Users\44840646856\Desktop\BackEndMoura\POO\ClassesObjetos\obj\Debug\net9.0\ClassesObjetos.sourcelink.json
+C:\Users\44840646856\Desktop\BackEndMoura\POO\ClassesObjetos\obj\Debug\net9.0\ClassesObjetos.dll
+C:\Users\44840646856\Desktop\BackEndMoura\POO\ClassesObjetos\obj\Debug\net9.0\refint\ClassesObjetos.dll
+C:\Users\44840646856\Desktop\BackEndMoura\POO\ClassesObjetos\obj\Debug\net9.0\ClassesObjetos.pdb
+C:\Users\44840646856\Desktop\BackEndMoura\POO\ClassesObjetos\obj\Debug\net9.0\ClassesObjetos.genruntimeconfig.cache
+C:\Users\44840646856\Desktop\BackEndMoura\POO\ClassesObjetos\obj\Debug\net9.0\ref\ClassesObjetos.dll
