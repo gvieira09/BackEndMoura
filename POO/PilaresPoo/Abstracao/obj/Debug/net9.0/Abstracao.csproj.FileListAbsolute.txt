@@ -1,0 +1,5 @@
+C:\Users\44840646856\Desktop\BackEndMoura\POO\PilaresPoo\Abstracao\obj\Debug\net9.0\Abstracao.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\44840646856\Desktop\BackEndMoura\POO\PilaresPoo\Abstracao\obj\Debug\net9.0\Abstracao.AssemblyInfoInputs.cache
+C:\Users\44840646856\Desktop\BackEndMoura\POO\PilaresPoo\Abstracao\obj\Debug\net9.0\Abstracao.AssemblyInfo.cs
+C:\Users\44840646856\Desktop\BackEndMoura\POO\PilaresPoo\Abstracao\obj\Debug\net9.0\Abstracao.csproj.CoreCompileInputs.cache
+C:\Users\44840646856\Desktop\BackEndMoura\POO\PilaresPoo\Abstracao\obj\Debug\net9.0\Abstracao.sourcelink.json

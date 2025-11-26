@@ -8,7 +8,7 @@ namespace Heranca
 
         public int Idade;
 
-         public void ExibirInfo()
+        public void ExibirInfo()
         {
             Console.WriteLine($"Nome: {Nome}, Raça: {Raca} e Idade: {Idade}");
             
