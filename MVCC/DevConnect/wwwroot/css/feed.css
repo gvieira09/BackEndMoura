@@ -1,0 +1,234 @@
+
+/* ====== LAYOUT GERAL ====== */
+
+body {
+    background-color: #ffffff;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+/* Centralização total do bloco */
+.container-flex-publi {
+    width: 100%;
+    max-width: 800px;  /* ajuste aqui se quiser mais largo ou mais estreito */
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin: 0 auto; /* força centralização */
+}
+
+
+/* LADO ESQUERDO (FEED) */
+.container-left {
+    flex: 1;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+/* LADO DIREITO (PAINEL AZUL / LATERAL) */
+.container-right {
+    width: 350px;
+    background-color: #a3b7ce; /* seu azul */
+    border-radius: 12px;
+    height: fit-content;
+}
+
+/* IMAGEM GIGANTE (VOCÊ MOSTROU NO PRINT) */
+.imagem-grande-ajuste {
+    width: 100%;
+    max-height: 600px;
+    object-fit: cover;
+    border-radius: 12px;
+    display: block;
+}
+
+/* ====== STORIES ====== */
+
+#storys {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    overflow-x: auto;
+    gap: 25px;
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    background-color: #ffffff;
+}
+
+#storys::-webkit-scrollbar {
+    width: 0;
+}
+
+.card-story > button {
+    background-color: transparent;
+    border: none;
+    font-size: 14px;
+    color: #555;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.card-story > button > img {
+    width: 75px;
+    height: 75px;
+    object-fit: cover;
+    border-radius: 50%;
+    padding: 3px;
+    /* gradiente estilo stories instagram */
+    background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+}
+
+/* ====== CRIAR PUBLICAÇÃO ====== */
+
+#criar-publi {
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+}
+
+#criar-publi h2 {
+    color: #262626;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#criar-publi textarea {
+    width: 100%;
+    height: 90px;
+    padding: 12px;
+    font-size: 15px;
+    resize: none;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #fafafa;
+}
+
+#criar-publi textarea::placeholder {
+    color: #888;
+}
+
+#criar-publi form footer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.formulario-botao-azul {
+    width: 140px;
+    padding: 8px 14px;
+    border-radius: 8px;
+    border: none;
+    background-color: #3897f0;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.formulario-botao-azul:hover {
+    background-color: #2f89e0;
+}
+
+/* ====== FEED (PUBLICAÇÕES) ====== */
+
+#publicacoes {
+    background-color: #ffffff;
+    width: 100%;
+}
+
+.card-publi {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+/* Cabeçalho da publicação */
+.card-publi header {
+    display: flex;
+    padding: 12px;
+}
+
+.card-publi header a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    gap: 10px;
+    font-weight: bold;
+    color: #262626;
+}
+
+.card-publi header img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+/* Imagem da publicação */
+.imagem-publicacao {
+    width: 100%;
+    height: 420px;
+    object-fit: cover;
+}
+
+/* Área inferior */
+.card-publi figure {
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card-publi figure figcaption {
+    font-size: 15px;
+    color: #262626;
+    font-weight: 500;
+}
+
+.interacoes-publicacao {
+    display: flex;
+    gap: 12px;
+}
+
+.interacoes-publicacao button {
+    background: none;
+    border: none;
+}
+
+.card-publi figure > button {
+    background: none;
+    border: none;
+    color: #737373;
+    font-size: 14px;
+    text-align: left;
+    padding: 0;
+}
+
+/* ====== RESPONSIVIDADE ====== */
+@media (max-width: 900px) {
+    .container-flex-publi {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container-right {
+        width: 100%;
+    }
+}

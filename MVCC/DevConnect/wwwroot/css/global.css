@@ -1,0 +1,148 @@
+@font-face {
+    font-family: "Raleway", sans-serif;
+    ;
+    src: url(../assets/fonts/Raleway\ \(1\)/#131829);
+
+}
+
+:root {
+    --cor-azul-escuro: #131829;
+    --cor-azul-claro: #315A7B;
+    --cor-azul-marinho: #1F2A4E;
+    --cor-azul-cinzelado: #4A5C6A;
+    --cor-cinza-medio: #9BABAB;
+    --cor-branco: #ffffff;
+
+    --borda: 1px solid var(--cor-azul-escuro);
+    --borda-arredondada: 2px;
+
+    --tamanho-fonte-lg: 20px;
+    --tamanho-fonte-md: 16px;
+    --tamanho-fonte-sm: 14px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Oi", serif;
+    outline-color: var(--cor-azul-marinho);
+}
+
+body {
+    background-color: var(--cor-cinza-medio);
+}
+
+h1 {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+
+}
+
+.formulario-botao-azul {
+    background-color: var(--cor-azul-escuro);
+    border-radius: var(--borda-arredondada);
+    height: 35px;
+
+    color: var(--cor-cinza-medio);
+    font-size: var(--tamanho-fonte-sm);
+}
+
+.formulario-campos>input {
+    border: var(--borda);
+    height: 35px;
+    background-color: var(--cor-cinza-medio);
+
+    color: var(--cor-azul-marinho);
+    font-size: var(--tamanho-fonte-sm);
+    border-radius: var(--borda-arredondada);
+
+}
+
+.formulario-campos>label {
+    font-size: var(--tamanho-fonte-sm);
+    color: var(--cor-azul-cinzelado);
+    font-weight: 600;
+
+
+
+}
+
+.estilo-formulario {
+    width: 100%;
+    background-color: #869db7;
+    border: var(--borda);
+}
+
+#campo-upload {
+    display: none;
+}
+
+
+#texto-upload {
+    display: inline-block;
+    width: 100%;
+    max-width: 300px;
+    min-height: 35px;
+    background-color: var(--cor-azul-cinzelado);
+    color: var(--cor-branco);
+    text-align: center;
+    border-radius: var(--borda-arredondada);
+    font-weight: 500;
+    padding: 5px;
+}
+
+
+#cabecalho {
+    background-color: #ffffff;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    border-bottom: var(--borda);
+}
+
+#cabecalho>nav {
+    width: 85%;
+    max-width: 900px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo-mobile {
+    display: none;
+}
+
+.cabecalho-acoes {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.cabecalho-acoes>a {
+    display: flex;
+    align-items: center;
+
+}
+
+#foto-perfil {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+}
+
+@media only screen and (max-width: 500px) {
+    #logo-mobile {
+        display: initial;
+    }
+
+    #logo-desktop {
+        display: none;
+    }
+
+}

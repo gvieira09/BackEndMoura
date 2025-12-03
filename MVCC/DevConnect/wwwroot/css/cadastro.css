@@ -1,0 +1,124 @@
+
+/* Fundo geral clean e moderno */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f4f4f7; /* fundo cinza muito claro */
+}
+
+/* título */
+h1 {
+    text-align: center;
+    margin-top: 40px;
+    color: #000000;
+    font-weight: 600;
+}
+
+/* container principal */
+main {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* cartão clean */
+.estilo-formulario {
+    width: 350px;
+    padding: 25px;
+    border-radius: 12px;
+    background: white;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* textos do formulário */
+.estilo-formulario p {
+    text-align: center;
+    color: #6ca3db;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+/* campos de formulário */
+.formulario-campos {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.formulario-campos label {
+    color: #000000;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.formulario-campos input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    outline: none;
+    transition: 0.2s ease;
+}
+
+/* efeito de foco */
+.formulario-campos input:focus {
+    border-color: #d6249f;
+    box-shadow: 0 0 3px #d6249faa;
+}
+
+/* upload */
+#upload {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#texto-upload {
+    color: #000000;
+    font-weight: bold;
+}
+
+#campo-upload {
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    margin-top: 5px;
+    width: 100%;
+}
+
+/* botão colorido estilo Instagram */
+.formulario-botao-cadastro {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(45deg, #f58529, #dd2a7b, #8134af, #515bd4);
+    background-size: 200% 200%;
+    animation: botaoAnim 4s ease infinite;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+@keyframes botaoAnim {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+/* link inferior */
+#secao-cadastro p {
+    margin-top: 15px;
+    color: #444;
+}
+
+#secao-cadastro a {
+    color: #d6249f;
+    font-weight: bold;
+    text-decoration: none;
+}
