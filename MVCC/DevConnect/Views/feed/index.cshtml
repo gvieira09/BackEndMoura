@@ -1,13 +1,34 @@
-       <link rel="shortcut icon" href="~/images/logo-devconnect-sm.svg" type="image/x-icon">
 
    <link rel="stylesheet" href="~/css/feed.css">
-<main>
-    <div class="container-flex-publi">
+<h1>Tela Feed - DevConnect</h1>
 
-        <!-- COLUNA ESQUERDA -->
-        <div class="container-left">
+    <header id="cabecalho">
+        <nav>
 
-            <!-- STORIES -->
+              <a asp-controller="feed" asp-action="index">
+                <img id="logo-desktop" src="~/images/logo-devconnect-md.svg" alt="Logo da DevConnect">
+            </a>
+            <a asp-controller="feed" asp-action="index">
+                <img id="logo-mobile" src="~/images/logo-devconnect-sm.svg" alt="Logo da DevConnect">
+            </a>
+
+            <div class="cabecalho-acoes">
+                <a asp-controller="feed" asp-action="index">
+                    <img src="~/images/icone-casa-azul.svg" alt="">
+                </a>
+                <a href="#" alt="">
+                    <img src="~/images/icone-coracao-azul.svg" alt="">
+                </a>
+                <a href="#">
+                    <img id="foto-perfil" src="~/images/WhatsApp Image 2025-04-25 at 15.35.13.jpeg" alt="">
+                </a>
+            </div>
+
+        </nav>
+    </header>
+
+    <main>
+        <div class="container-flex-publi">
             <section id="storys" class="estilo-formulario">
                 <article class="card-story">
                     <button>
@@ -27,46 +48,101 @@
                         ogvieraa
                     </button>
                 </article>
-                <!-- ... pode repetir normalmente -->
+                <article class="card-story">
+                    <button>
+                        <img src="~/images/WhatsApp Image 2025-04-11 at 10.14.43 (1).jpeg" alt="">
+                        ogvieraa
+                    </button>
+                </article>
+                <article class="card-story">
+                    <button>
+                        <img src="~/images/WhatsApp Image 2025-04-11 at 10.14.43 (1).jpeg" alt="">
+                        ogvieraa
+                    </button>
+                </article>
+                <article class="card-story">
+                    <button>
+                        <img src="~/images/WhatsApp Image 2025-04-11 at 10.14.43 (1).jpeg" alt="">
+                        ogvieraa
+                    </button>
+                </article>
+                <article class="card-story">
+                    <button>
+                        <img src="~/images/WhatsApp Image 2025-04-11 at 10.14.43 (1).jpeg" alt="">
+                        ogvieraa
+                    </button>
+                </article>
+                <article class="card-story">
+                    <button>
+                        <img src="~/images/WhatsApp Image 2025-04-11 at 10.14.43 (1).jpeg" alt="">
+                        ogvieraa
+                    </button>
+                </article>
+                <article class="card-story">
+                    <button>
+                        <img src="~/images/WhatsApp Image 2025-04-11 at 10.14.43 (1).jpeg" alt="">
+                        ogvieraa
+                    </button>
+                </article>
+                <article class="card-story">
+                    <button>
+                        <img src="~/images/WhatsApp Image 2025-04-11 at 10.14.43 (1).jpeg" alt="">
+                        ogvieraa
+                    </button>
+                </article>
+                <article class="card-story">
+                    <button>
+                        <img src="~/images/WhatsApp Image 2025-04-11 at 10.14.43 (1).jpeg" alt="">
+                        ogvieraa
+                    </button>
+                </article>
+                <article class="card-story">
+                    <button>
+                        <img src="~/images/WhatsApp Image 2025-04-11 at 10.14.43 (1).jpeg" alt="">
+                        ogvieraa
+                    </button>
+                </article>
+
+
+
             </section>
 
-            <!-- CRIAR PUBLICAÇÃO -->
             <section id="criar-publi" class="estilo-formulario">
                 <h2>Publicação</h2>
 
                 <form action="" class="estilo-formulario">
-                    <textarea placeholder="Digite a descrição do post..."></textarea>
+                    <textarea name="" id="" placeholder="Digite a descrição do post..."></textarea>
 
                     <footer>
                         <div>
-                            <label for="campo-upload" id="texto-upload">
-                                Faça upload da sua imagem aqui
-                                <input type="file" id="campo-upload">
+                            <label for="campo-upload" id="texto-upload">Faça upload da sua imagem aqui
+                                <input type="file" name="" id="campo-upload">
                             </label>
                         </div>
 
-                        <button type="submit" class="formulario-botao-azul">Publicar</button>
+                        <button type="submit" class="formulario-botao-azul">Entrar</button>
+
                     </footer>
+
                 </form>
             </section>
 
-            <!-- FEED DE PUBLICAÇÕES -->
             <section id="publicacoes">
                 <article class="card-publi">
-
                     <header>
-                        <a href="">
-                            <img id="foto-perfil" src="~/images/WhatsApp Image 2025-04-25 at 15.35.13.jpeg" alt="">
+                        <a asp-controller="Usuario" asp-action="index">
+                            <img id="foto-perfil" src="~/images/WhatsApp Image 2025-04-25 at 15.35.13.jpeg"
+                                alt="">
                             ogvieraa
                         </a>
+
                     </header>
 
-                    <figure>
+               <figure>
                         <img class="imagem-publicacao"
                             src="~/images/drake-nothing-was-the-same-143oha58w3q3id6q.jpg" alt="">
-
                         <figcaption>
-                            ogvieraa
+                            ogvieiraa
                             <p>Drake no BRASIL!!!</p>
                         </figcaption>
 
@@ -82,19 +158,11 @@
                             <span>1.000 curtidas</span>
                         </div>
 
-                        <button type="button">Ver todos os comentários</button>
+                        <button type="button"> Ver todos os comentarios</button>
                     </figure>
 
                 </article>
             </section>
 
         </div>
-
-        <!-- COLUNA DIREITA -->
-        <div class="container-right">
-            <!-- PAINEL LATERAL (AZUL) -->
-            <!-- Você pode colocar sugestões, perfil, amigos etc -->
-        </div>
-
-    </div>
-</main>
+    </main>

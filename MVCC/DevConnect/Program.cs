@@ -1,4 +1,14 @@
+using DevConnect.Contexts;      // ✔ IMPORTANTE: usar o namespace do seu contexto
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
+
+// ✔ REGISTRAR O CONTEXTO AQUI
+builder.Services.AddDbContext<DevConnectContext>(options =>
+    options.UseSqlServer(
+        builder.Configuration.GetConnectionString("DevCon_Windows")
+    )
+);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
@@ -9,7 +19,6 @@ var app = builder.Build();
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");
-    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
 
@@ -25,5 +34,5 @@ app.MapControllerRoute(
     pattern: "{controller=Home}/{action=Index}/{id?}")
     .WithStaticAssets();
 
-
 app.Run();
+

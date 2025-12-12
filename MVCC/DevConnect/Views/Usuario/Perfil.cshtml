@@ -1,0 +1,119 @@
+    <link rel="stylesheet" href="~/css/perfil.css">
+
+ 
+ <header id="cabecalho">
+            <nav>
+                <a asp-controller="Feed" asp-action="index">
+                    <img id="logo-desktop" src="~/images/logo-devconnect-md.svg" alt="Logo da DevConnect">
+                </a>
+                 <a asp-controller="Feed" asp-action="index">                    
+                 <img id="logo-mobile" src="~/images/logo-devconnect-sm.svg" alt="Logo da DevConnect">
+                </a>
+
+                <div class="cabecalho-acoes">
+                 <a asp-controller="Feed" asp-action="index">                       
+                  <img src="~/images/icone-casa-azul.svg" alt="Início">
+                    </a>
+                    <a href="#">
+                        <img src="~/images/icone-coracao-azul.svg" alt="Curtidas">
+                    </a>
+                    <a asp-controller="Usuario" asp-action="index">
+                        <img class="foto-perfil-sm" src="~/images/WhatsApp Image 2025-04-25 at 15.35.13.jpeg"
+                            alt="Perfil">
+                    </a>
+                </div>
+            </nav>
+        </header>
+
+        <section id="perfil">
+            <div class="perfil-info">
+                <img class="foto-perfil" src="~/images/WhatsApp Image 2025-04-25 at 15.35.13.jpeg"
+                    alt="Foto de Perfil">
+                    
+
+                <div class="perfil-dados">
+                    <div class="perfil-topo">
+                        <h2>ogvieraa</h2>
+                    </div>
+                
+
+                    <div class="perfil-bio">
+                        
+
+                        <ul class="perfil-estatisticas">
+                            <li><strong>3</strong> publicações</li>
+                            <li><strong>100.000</strong> seguidores</li>
+                            <li><strong>1</strong> seguindo</li>
+                        </ul>
+                    
+                
+
+                    </div>
+                
+                    <div class="botao-bio">
+                        <span>Guilherme Vieira</span>
+                        <a class="botao">Editar perfil</a>
+                        <a asp-controller="Home" asp-action="index" class="botao">Sair</a>
+
+                    </div>
+                
+                </div>
+            </div>
+            
+        <div class="publicacao-cabecario">
+            <img id="logo-grade"    src="~/images/icone-galeria-preto.svg" alt="">
+            
+            <span>Publicação</span>
+        </div> 
+
+        <section class="posts">
+        
+        
+            <div class="post-texto">
+                <h3>ogvieraa</h3>
+                <p>Jesus andava com 12, mas 1 era Judas, preste atenção em quem voce chama de irmão.</p>
+                <div class="actions">
+                    <a href="#">
+                        <img src="~/images/icone-coracao-preto.svg" alt="Curtir">
+                    </a>
+                    <a href="#">
+                        <img src="~/images/icone-comentario-preto.svg" alt="Comentar">
+                    </a>
+                </div>
+                <p>900 curtidas</p><br>
+                <p class="comentarios">Ver todos os comentários...</p>
+            </div>
+
+        
+        
+            <div class="post-texto">
+            
+                <h3>ogvieraa</h3>
+                <p>Fechando contrato com a sufgang, aguardem...</p>
+                <div class="actions">
+                    <a href="#">
+                        <img src="~/images/icone-coracao-preto.svg" alt="Curtir">
+                    </a>
+                    <a href="#">
+                        <img src="~/images/icone-comentario-preto.svg" alt="Comentar">
+                    </a>
+                </div>
+                <p>1.3k curtidas</p><br>
+                <p class="comentarios">Ver todos os comentários...</p>
+            </div>
+
+            <div class="post-texto">
+                <h3>ogvieraa</h3>
+                <p>Hoje acordei com uma otima noticia!! ABEL the GOAT no BRASIIILLL!!!</p>
+                <div class="actions">
+                    <a href="#">
+                        <img src="~/images/icone-coracao-preto.svg" alt="Curtir">
+                    </a>
+                    <a href="#">
+                        <img src="~/images/icone-comentario-preto.svg" alt="Comentar">
+                    </a>
+                </div>
+                <p>1.8k curtidas curtidas</p><br>
+                <p class="comentarios">Ver todos os comentários...</p>
+            </div>
+        </section>

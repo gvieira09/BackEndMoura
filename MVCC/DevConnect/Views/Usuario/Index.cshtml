@@ -1,0 +1,69 @@
+@model DevConnect.Models.TbUsuario
+ 
+<link rel="stylesheet" href="~/css/cadastro.css">
+
+<script defer>
+    let usuarioNovoCadastrado = "@ViewBag.UsuarioNovoCadastrado";
+
+    if (usuarioNovoCadastrado == "Nao cadastrado") {
+        alert("Não foi possível cadastrar esse usuário x_x Fale com nossos adms");
+    }
+</script>
+    
+<h1>Tela cadastro - DevConnect</h1>
+
+<main>
+    <div>
+        <!-- formulario -->
+        <form class="estilo-formulario" 
+              asp-action="Index" 
+              asp-controller="Usuario"
+              enctype="multipart/form-data"
+              method="post">
+
+            <img src="~/images/logo-devconnect-lg.svg" alt="Logo DevConnect">
+
+            <p>Cadastre-se para comunidade exclusiva de desenvolvedores(as)</p>
+
+            <div class="formulario-campos">
+                <label>Nome e Sobrenome:</label>
+                <input type="text" asp-for="NomeCompleto">
+            </div>
+
+            <div class="formulario-campos">
+                <label>Nome do usuário:</label>
+                <input type="text" asp-for="NomeUsuario">
+            </div>
+
+            <div class="formulario-campos">
+                <label>E-mail:</label>
+                <input type="email" asp-for="Email">
+            </div>
+
+            <div class="formulario-campos">
+                <label>Senha:</label>
+                <input type="password" asp-for="Senha">
+            </div>
+            
+            <div id="upload">   
+                <label for="campo-upload" id="texto-upload">
+                    Faça o upload da sua imagem aqui...
+                </label>
+                <input type="file" name="Imagem" id="campo-upload" accept="image/*">
+            </div>
+
+            <button type="submit" class="formulario-botao-cadastro">Cadastre-se</button>
+
+            <p>Ao se cadastrar, você concorda com nossos Termos, Política de dados e Política de Cookies.</p>
+
+        </form>
+
+        <section id="secao-cadastro" class="estilo-formulario">
+            <p>Tem uma conta? 
+                <a asp-controller="Home" asp-action="Index">Conecte-se</a>
+            </p>
+        </section>
+
+    </div>
+</main>
+

@@ -4,6 +4,15 @@
 
 <link rel="stylesheet" href="~/css/login.css" />
 
+ <script defer>
+    let usuarioNovoCadastrado = "@TempData["UsuarioNovoCadastrado"]";
+
+    if(usuarioNovoCadastrado == "Cadastrado"){
+        alert("Cadastro concluido com sucesso! Agora basta se logar para navegar em nossa plataforma...");
+    }
+ </script>
+
+
 <h1>Tela principal login - DevConnect</h1>
     <main>
         <div>
@@ -32,7 +41,7 @@
             </form>
 
             <section id="secao-cadastro" class="estilo-formulario">
-                <p>Não tem uma conta? <a href="#">Cadastre-se</a></p>
+                <p>Não tem uma conta? <a asp-controller="Usuario" asp-action="Cadastro">Cadastre-se</a></p>
             </section>
 
             <p>Obtenha o aplicativo</p>
